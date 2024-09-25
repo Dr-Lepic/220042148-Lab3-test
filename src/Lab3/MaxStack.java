@@ -19,4 +19,13 @@ public class MaxStack {
         return maxStack.peek();
     }
 
+    public int pop() {
+        int temp = stack.pop();
+
+        if(temp == maxStack.peek()) {
+            maxStack.pop();
+        }
+        return temp;
+    }
+
 }
