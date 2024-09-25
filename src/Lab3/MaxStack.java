@@ -15,5 +15,8 @@ public class MaxStack {
             maxStack.push(x);
         }
     }
+    public int max() {
+        return maxStack.peek();
+    }
 
 }
