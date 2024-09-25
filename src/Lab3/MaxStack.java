@@ -28,4 +28,15 @@ public class MaxStack {
         return temp;
     }
 
+    public static void main(String[] args) {
+        MaxStack maxStack = new MaxStack();
+
+        //Test case 1
+        maxStack.push(3);
+        maxStack.push(2);
+        maxStack.push(5);
+        maxStack.push(6);
+        System.out.println(maxStack.max());
+    }
+
 }
