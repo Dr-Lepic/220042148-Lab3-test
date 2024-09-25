@@ -63,7 +63,19 @@ public class TestLab3 {
     @Test
     public void evenPrimeLucky_1(){
         NumWordPrinter printer = new NumWordPrinter();
-        assertEquals("evenPrimeLucky", printer.printWord(284));
+        assertEquals("evenPrimeLucky", printer.printWord(286));
+    }
+
+    @Test
+    public void evenPrimeLucky_2(){
+        NumWordPrinter printer = new NumWordPrinter();
+        assertEquals("evenPrimeLucky", printer.printWord(572));
+    }
+
+    @Test
+    public void evenPrimeLucky_3(){
+        NumWordPrinter printer = new NumWordPrinter();
+        assertEquals("evenPrimeLucky", printer.printWord(858));
     }
 
 
