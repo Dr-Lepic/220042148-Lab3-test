@@ -37,6 +37,19 @@ public class MaxStack {
         maxStack.push(5);
         maxStack.push(6);
         System.out.println(maxStack.max());
+
+        //Test case 2
+        maxStack.pop();
+        System.out.println(maxStack.max());
+
+        //Test case 3
+        MaxStack maxStack1 = new MaxStack();
+        maxStack1.push(1);
+        maxStack1.push(2);
+        maxStack1.push(3);
+        maxStack1.push(2);
+        System.out.println(maxStack1.max());
+
     }
 
 }
